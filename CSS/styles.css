@@ -1,0 +1,155 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#buttonHamburger{
+  border: 0;
+}
+
+.gold {
+  color: #ffd52d;
+}
+
+.navbarControl {
+  padding: 1.5% 7%;
+}
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffd52d;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+#hamburger {
+  top: 22%;
+  right: -1.4%;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffd52d;
+}
+
+.campImage {
+  background-color: #321b51;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url("../images/camp5.jpg");
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.search1 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.search2 {
+  position: absolute;
+  top: 44%;
+  right: 20%;
+  transform: translate(50%, 50%);
+}
+
+.input {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: 4px solid #ffd52d;
+  border-radius: 50px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px;
+  color: #ffd52d;
+  outline: none;
+  transition: .5s;
+}
+
+.search1:hover input {
+  width: 15rem;
+  background: #272133;
+  border-radius: 10px;
+}
+
+.search2:hover input {
+  width: 15rem;
+  background: #272133;
+  border-radius: 10px;
+}
+
+
+i {
+  position: absolute;
+  top: 50%;
+  right: 7px;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  color: #ffd52d;
+  transition: .2s;
+}
+
+.search1:hover i {
+  opacity: 0;
+  z-index: -1;
+}
+
+.search2:hover i {
+  opacity: 0;
+  z-index: -1;
+}
+.booksText{
+  color: #ffd52d;
+  position: absolute;
+  transform: translate(270%,250%);
+}
+.fireGif {
+  height: 8rem;
+  width: 6.9rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-57.5%, -13%);
+}
+
+@media(max-width: 700px) {
+  .search1 {
+    position: absolute;
+    top: 23%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+  }
+
+  .search2 {
+    position: absolute;
+    top: 76%;
+    right: 50.5%;
+    transform: translate(50%, 50%);
+  }
+  .search1:hover input {
+    width: 10rem;
+    background: #272133;
+    border-radius: 10px;
+  }
+  .search2:hover input {
+    width: 10rem;
+    background: #272133;
+    border-radius: 10px;
+  }
+}
