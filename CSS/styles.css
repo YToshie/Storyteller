@@ -63,7 +63,7 @@ body {
 
 .search2 {
   position: absolute;
-  top: 44%;
+  bottom: 50%;
   right: 20%;
   transform: translate(50%, 50%);
 }
@@ -132,14 +132,14 @@ i {
   .search1 {
     position: absolute;
     top: 23%;
-    left: 49%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 
   .search2 {
     position: absolute;
-    top: 76%;
-    right: 50.5%;
+    bottom: 20%;
+    right: 50%;
     transform: translate(50%, 50%);
   }
   .search1:hover input {
